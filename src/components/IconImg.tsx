@@ -1,6 +1,6 @@
 interface IProps {
   src: string;
-  className: string;
+  className?: string;
 }
 
 const IconImg = ({ src, className = "w-5 h-5" }: IProps) => {
